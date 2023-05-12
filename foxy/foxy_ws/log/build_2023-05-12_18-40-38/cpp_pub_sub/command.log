@@ -1,0 +1,2 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '1': /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub

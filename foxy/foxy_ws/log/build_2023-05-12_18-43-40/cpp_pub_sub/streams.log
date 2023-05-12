@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub
+[0.039s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.283s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.339s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.341s] CMake Error at /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:54 (message):
+[0.341s]   The RMW implementation has been specified as 'rmw_fastrtps_cpp' via the
+[0.341s]   default when rmw_implementation was built, but it is not available at this
+[0.341s]   time.
+[0.341s] 
+[0.341s]   
+[0.341s] 
+[0.341s]   Currently available middlewares:
+[0.341s] 
+[0.341s]   ''
+[0.341s] Call Stack (most recent call first):
+[0.341s]   /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[0.341s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.341s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.342s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.342s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.342s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.342s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.342s]   CMakeLists.txt:20 (find_package)
+[0.342s] 
+[0.342s] 
+[0.342s] -- Configuring incomplete, errors occurred!
+[0.342s] See also "/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub/CMakeFiles/CMakeOutput.log".
+[0.345s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '1': /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub

@@ -1,0 +1,41 @@
+[0.807s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_pub_sub': PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log --install-scripts $base/lib/py_pub_sub --single-version-externally-managed
+[1.037s] running egg_info
+[1.037s] creating ../../build/py_pub_sub/py_pub_sub.egg-info
+[1.037s] writing ../../build/py_pub_sub/py_pub_sub.egg-info/PKG-INFO
+[1.038s] writing dependency_links to ../../build/py_pub_sub/py_pub_sub.egg-info/dependency_links.txt
+[1.038s] writing entry points to ../../build/py_pub_sub/py_pub_sub.egg-info/entry_points.txt
+[1.038s] writing requirements to ../../build/py_pub_sub/py_pub_sub.egg-info/requires.txt
+[1.038s] writing top-level names to ../../build/py_pub_sub/py_pub_sub.egg-info/top_level.txt
+[1.040s] writing manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[1.067s] reading manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[1.068s] writing manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.068s] creating /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build
+[1.068s] creating /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib
+[1.068s] creating /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub
+[1.068s] copying py_pub_sub/publisher_func.py -> /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub
+[1.068s] copying py_pub_sub/subscriber_func.py -> /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub
+[1.068s] copying py_pub_sub/__init__.py -> /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub
+[1.069s] running install
+[1.069s] running install_lib
+[1.070s] creating /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub
+[1.070s] copying /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub/publisher_func.py -> /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub
+[1.070s] copying /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub/subscriber_func.py -> /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub
+[1.070s] copying /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build/lib/py_pub_sub/__init__.py -> /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub
+[1.070s] byte-compiling /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub/publisher_func.py to publisher_func.cpython-38.pyc
+[1.070s] byte-compiling /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub/subscriber_func.py to subscriber_func.cpython-38.pyc
+[1.071s] byte-compiling /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub/__init__.py to __init__.cpython-38.pyc
+[1.071s] running install_data
+[1.071s] creating /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/share/ament_index
+[1.071s] creating /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/share/ament_index/resource_index
+[1.071s] creating /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/share/ament_index/resource_index/packages
+[1.072s] copying resource/py_pub_sub -> /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/share/ament_index/resource_index/packages
+[1.072s] copying package.xml -> /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/share/py_pub_sub
+[1.072s] running install_egg_info
+[1.073s] Copying ../../build/py_pub_sub/py_pub_sub.egg-info to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub-0.0.0-py3.8.egg-info
+[1.073s] running install_scripts
+[1.086s] Installing listener script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/py_pub_sub
+[1.086s] Installing talker script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/py_pub_sub
+[1.087s] writing list of installed files to '/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log'
+[1.103s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_pub_sub' returned '0': PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log --install-scripts $base/lib/py_pub_sub --single-version-externally-managed

@@ -1,0 +1,6 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub/CMakeFiles/CMakeOutput.log".

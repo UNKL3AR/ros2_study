@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'py_pub_sub'}
+[0.000322] (cpp_pub_sub) JobQueued: {'identifier': 'cpp_pub_sub', 'dependencies': OrderedDict()}
+[0.000370] (cpp_pub_sub) JobStarted: {'identifier': 'cpp_pub_sub'}
+[0.098672] (-) TimerEvent: {}
+[0.199232] (-) TimerEvent: {}
+[0.302839] (-) TimerEvent: {}
+[0.329629] (cpp_pub_sub) JobProgress: {'identifier': 'cpp_pub_sub', 'progress': 'cmake'}
+[0.330060] (cpp_pub_sub) Command: {'cmd': ['/usr/bin/cmake', '/home/zyh/ros2_study/foxy/foxy_ws/src/cpp_pub_sub', '-DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub'], 'cwd': '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'zyh'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '2428'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/zyh/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/zyh'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zyh/ros2_study/foxy/foxy_ws/src'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2204'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=43776ad8df40f2f90dfeabd364584c68'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/zyh/ros2_study/foxy/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zyh'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:47607'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zyh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zyh/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/zyh/anaconda3/condabin:/home/zyh/.mujoco/mujoco210/bin:/usr/lib/nvidia:/opt/ros/foxy/bin:/home/zyh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cache:@/tmp/.ICE-unix/2474,unix/cache:/tmp/.ICE-unix/2474'), ('INVOCATION_ID', '57877e9cdcf4473495b5d17b8c3d74a0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfcee250_0553_4fe8_8a6f_6ace3605ac40'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-618884cff4.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1090'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub'), ('CONDA_PYTHON_EXE', '/home/zyh/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zyh/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=43776ad8df40f2f90dfeabd364584c68'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub')]), 'shell': False}
+[0.402732] (-) TimerEvent: {}
+[0.503406] (-) TimerEvent: {}
+[0.604029] (-) TimerEvent: {}
+[0.704377] (-) TimerEvent: {}
+[0.804898] (-) TimerEvent: {}
+[0.905475] (-) TimerEvent: {}
+[1.006090] (-) TimerEvent: {}
+[1.106649] (-) TimerEvent: {}
+[1.207363] (-) TimerEvent: {}
+[1.308105] (-) TimerEvent: {}
+[1.408808] (-) TimerEvent: {}
+[1.509459] (-) TimerEvent: {}
+[1.610089] (-) TimerEvent: {}
+[1.710673] (-) TimerEvent: {}
+[1.811163] (-) TimerEvent: {}
+[1.911891] (-) TimerEvent: {}
+[2.012634] (-) TimerEvent: {}
+[2.113309] (-) TimerEvent: {}
+[2.213972] (-) TimerEvent: {}
+[2.314639] (-) TimerEvent: {}
+[2.415300] (-) TimerEvent: {}
+[2.515763] (-) TimerEvent: {}
+[2.616411] (-) TimerEvent: {}
+[2.717164] (-) TimerEvent: {}
+[2.817848] (-) TimerEvent: {}
+[2.918495] (-) TimerEvent: {}
+[3.019392] (-) TimerEvent: {}
+[3.120170] (-) TimerEvent: {}
+[3.220945] (-) TimerEvent: {}
+[3.321641] (-) TimerEvent: {}
+[3.422325] (-) TimerEvent: {}
+[3.486648] (cpp_pub_sub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.522469] (-) TimerEvent: {}
+[3.622846] (-) TimerEvent: {}
+[3.723434] (-) TimerEvent: {}
+[3.823930] (-) TimerEvent: {}
+[3.924623] (-) TimerEvent: {}
+[4.025092] (-) TimerEvent: {}
+[4.125797] (-) TimerEvent: {}
+[4.226339] (-) TimerEvent: {}
+[4.326836] (-) TimerEvent: {}
+[4.427568] (-) TimerEvent: {}
+[4.528244] (-) TimerEvent: {}
+[4.628942] (-) TimerEvent: {}
+[4.729823] (-) TimerEvent: {}
+[4.830387] (-) TimerEvent: {}
+[4.882641] (cpp_pub_sub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.930616] (-) TimerEvent: {}
+[5.031263] (-) TimerEvent: {}
+[5.070654] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[5.131459] (-) TimerEvent: {}
+[5.232040] (-) TimerEvent: {}
+[5.332633] (-) TimerEvent: {}
+[5.433428] (-) TimerEvent: {}
+[5.534025] (-) TimerEvent: {}
+[5.634695] (-) TimerEvent: {}
+[5.735288] (-) TimerEvent: {}
+[5.835676] (-) TimerEvent: {}
+[5.849114] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.896638] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.935827] (-) TimerEvent: {}
+[6.036211] (-) TimerEvent: {}
+[6.098843] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.108728] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.116889] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.136320] (-) TimerEvent: {}
+[6.153559] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.236427] (-) TimerEvent: {}
+[6.270927] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.272330] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.336557] (-) TimerEvent: {}
+[6.403370] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.418486] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.419152] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.436701] (-) TimerEvent: {}
+[6.537123] (-) TimerEvent: {}
+[6.620960] (cpp_pub_sub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.637222] (-) TimerEvent: {}
+[6.718914] (cpp_pub_sub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.719065] (cpp_pub_sub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.737288] (-) TimerEvent: {}
+[6.837507] (-) TimerEvent: {}
+[6.937881] (-) TimerEvent: {}
+[7.038204] (-) TimerEvent: {}
+[7.049579] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.138343] (-) TimerEvent: {}
+[7.238696] (-) TimerEvent: {}
+[7.339088] (-) TimerEvent: {}
+[7.439628] (-) TimerEvent: {}
+[7.540092] (-) TimerEvent: {}
+[7.608955] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.617168] (cpp_pub_sub) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:54 (message):\n'}
+[7.617722] (cpp_pub_sub) StderrLine: {'line': b"  The RMW implementation has been specified as 'rmw_fastrtps_cpp' via the\n"}
+[7.618098] (cpp_pub_sub) StderrLine: {'line': b'  default when rmw_implementation was built, but it is not available at this\n'}
+[7.618383] (cpp_pub_sub) StderrLine: {'line': b'  time.\n'}
+[7.618650] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[7.618913] (cpp_pub_sub) StderrLine: {'line': b'  \n'}
+[7.619180] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[7.619441] (cpp_pub_sub) StderrLine: {'line': b'  Currently available middlewares:\n'}
+[7.619700] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[7.619961] (cpp_pub_sub) StderrLine: {'line': b"  ''\n"}
+[7.620223] (cpp_pub_sub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.620482] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)\n'}
+[7.620744] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[7.621005] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)\n'}
+[7.621278] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[7.621560] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[7.621856] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[7.622463] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[7.622811] (cpp_pub_sub) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[7.623097] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[7.623367] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[7.623630] (cpp_pub_sub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.623910] (cpp_pub_sub) StdoutLine: {'line': b'See also "/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub/CMakeFiles/CMakeOutput.log".\n'}
+[7.636758] (cpp_pub_sub) CommandEnded: {'returncode': 1}
+[7.642069] (-) TimerEvent: {}
+[7.743749] (-) TimerEvent: {}
+[7.844401] (-) TimerEvent: {}
+[7.932208] (cpp_pub_sub) JobEnded: {'identifier': 'cpp_pub_sub', 'rc': 1}
+[7.942781] (-) EventReactorShutdown: {}
