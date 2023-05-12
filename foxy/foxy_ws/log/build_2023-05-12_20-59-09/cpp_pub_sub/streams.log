@@ -1,0 +1,24 @@
+[0.173s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub -- -j12 -l12
+[1.182s] [ 50%] Built target listener
+[1.182s] [100%] Built target talker
+[1.204s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub -- -j12 -l12
+[1.278s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub
+[1.293s] -- Install configuration: ""
+[1.328s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/lib/cpp_pub_sub/talker
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/lib/cpp_pub_sub/listener
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/ament_index/resource_index/package_run_dependencies/cpp_pub_sub
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/ament_index/resource_index/parent_prefix_path/cpp_pub_sub
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.sh
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.dsv
+[1.329s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.sh
+[1.368s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.dsv
+[1.368s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.bash
+[1.368s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.sh
+[1.368s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.zsh
+[1.368s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.dsv
+[1.368s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/package.dsv
+[1.369s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/ament_index/resource_index/packages/cpp_pub_sub
+[1.369s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig.cmake
+[1.369s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig-version.cmake
+[1.369s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_pub_sub/share/cpp_pub_sub/package.xml
+[1.371s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub

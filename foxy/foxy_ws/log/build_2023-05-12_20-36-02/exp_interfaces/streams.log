@@ -1,0 +1,36 @@
+[0.020s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces
+[0.091s] -- The C compiler identification is GNU 9.4.0
+[0.151s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.330s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.424s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.540s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.690s] -- Found PythonInterp: /home/zyh/anaconda3/bin/python3 (found suitable version "3.10.9", minimum required is "3") 
+[0.691s] -- Using PYTHON_EXECUTABLE: /home/zyh/anaconda3/bin/python3
+[1.084s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.133s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.287s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.321s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.495s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.556s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.556s]   rosidl_generate_interfaces() the passed file 'msg/Sphere.msg' doesn't exist
+[1.556s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.556s]   '/home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces'
+[1.556s] Call Stack (most recent call first):
+[1.557s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.557s] 
+[1.557s] 
+[1.559s] -- Configuring incomplete, errors occurred!
+[1.559s] See also "/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces/CMakeFiles/CMakeOutput.log".
+[1.570s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces

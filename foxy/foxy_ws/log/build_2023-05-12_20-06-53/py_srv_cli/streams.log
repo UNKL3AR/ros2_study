@@ -1,0 +1,22 @@
+[1.243s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_srv_cli': PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv_cli build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log --install-scripts $base/lib/py_srv_cli --single-version-externally-managed
+[1.512s] running egg_info
+[1.512s] writing ../../build/py_srv_cli/py_srv_cli.egg-info/PKG-INFO
+[1.512s] writing dependency_links to ../../build/py_srv_cli/py_srv_cli.egg-info/dependency_links.txt
+[1.513s] writing entry points to ../../build/py_srv_cli/py_srv_cli.egg-info/entry_points.txt
+[1.513s] writing requirements to ../../build/py_srv_cli/py_srv_cli.egg-info/requires.txt
+[1.513s] writing top-level names to ../../build/py_srv_cli/py_srv_cli.egg-info/top_level.txt
+[1.546s] reading manifest file '../../build/py_srv_cli/py_srv_cli.egg-info/SOURCES.txt'
+[1.547s] writing manifest file '../../build/py_srv_cli/py_srv_cli.egg-info/SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.547s] running install
+[1.552s] running install_lib
+[1.554s] running install_data
+[1.554s] running install_egg_info
+[1.554s] removing '/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages/py_srv_cli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.555s] Copying ../../build/py_srv_cli/py_srv_cli.egg-info to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages/py_srv_cli-0.0.0-py3.8.egg-info
+[1.555s] running install_scripts
+[1.573s] Installing client script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/py_srv_cli
+[1.573s] Installing service script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/py_srv_cli
+[1.573s] writing list of installed files to '/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log'
+[1.607s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_srv_cli' returned '0': PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv_cli build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log --install-scripts $base/lib/py_srv_cli --single-version-externally-managed

@@ -1,0 +1,3 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli

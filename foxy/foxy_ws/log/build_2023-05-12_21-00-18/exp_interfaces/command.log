@@ -1,0 +1,2 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces

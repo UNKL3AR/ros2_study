@@ -1,0 +1,4 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub -- -j12 -l12
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub -- -j12 -l12
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_pub_sub

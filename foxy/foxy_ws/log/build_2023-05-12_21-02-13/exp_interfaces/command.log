@@ -1,0 +1,2 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces -- -j12 -l12
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces -- -j12 -l12

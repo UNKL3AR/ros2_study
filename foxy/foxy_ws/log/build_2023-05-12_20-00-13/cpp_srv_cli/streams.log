@@ -1,0 +1,57 @@
+[0.020s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli
+[0.035s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.277s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.606s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.705s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.781s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.782s] -- Configured cppcheck include dirs: 
+[0.782s] -- Configured cppcheck exclude dirs and/or files: 
+[0.783s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.783s] -- Configured cpplint exclude dirs and/or files: 
+[0.783s] -- Added test 'lint_cmake' to check CMake code style
+[0.784s] -- Added test 'uncrustify' to check C / C++ code style
+[0.784s] -- Configured uncrustify additional arguments: 
+[0.784s] -- Added test 'xmllint' to check XML markup files
+[0.787s] -- Configuring done
+[0.797s] -- Generating done
+[0.798s] -- Build files have been written to: /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli
+[0.805s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli
+[0.808s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+[0.855s] [35m[1mScanning dependencies of target server[0m
+[0.855s] [35m[1mScanning dependencies of target client[0m
+[0.943s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_server.cpp.o[0m
+[0.943s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_client.cpp.o[0m
+[2.892s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.050s] [100%] [32m[1mLinking CXX executable client[0m
+[3.713s] [100%] Built target server
+[3.719s] [100%] Built target client
+[3.732s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+[3.791s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli
+[3.799s] -- Install configuration: ""
+[3.800s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/server
+[3.800s] -- Set runtime path of "/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/server" to ""
+[3.800s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/client
+[3.801s] -- Set runtime path of "/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/client" to ""
+[3.801s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/package_run_dependencies/cpp_srv_cli
+[3.801s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/parent_prefix_path/cpp_srv_cli
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/ament_prefix_path.sh
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/ament_prefix_path.dsv
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/path.sh
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/path.dsv
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.bash
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.sh
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.zsh
+[3.802s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.dsv
+[3.803s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/package.dsv
+[3.803s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/packages/cpp_srv_cli
+[3.803s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/cmake/cpp_srv_cliConfig.cmake
+[3.803s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/cmake/cpp_srv_cliConfig-version.cmake
+[3.803s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/package.xml
+[3.806s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli

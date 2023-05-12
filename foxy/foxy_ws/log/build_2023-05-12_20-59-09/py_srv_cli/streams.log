@@ -1,0 +1,22 @@
+[5.267s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_srv_cli': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv_cli build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log --install-scripts $base/lib/py_srv_cli --single-version-externally-managed
+[5.521s] running egg_info
+[5.522s] writing ../../build/py_srv_cli/py_srv_cli.egg-info/PKG-INFO
+[5.523s] writing dependency_links to ../../build/py_srv_cli/py_srv_cli.egg-info/dependency_links.txt
+[5.523s] writing entry points to ../../build/py_srv_cli/py_srv_cli.egg-info/entry_points.txt
+[5.523s] writing requirements to ../../build/py_srv_cli/py_srv_cli.egg-info/requires.txt
+[5.524s] writing top-level names to ../../build/py_srv_cli/py_srv_cli.egg-info/top_level.txt
+[5.649s] reading manifest file '../../build/py_srv_cli/py_srv_cli.egg-info/SOURCES.txt'
+[5.685s] writing manifest file '../../build/py_srv_cli/py_srv_cli.egg-info/SOURCES.txt'
+[5.685s] running build
+[5.685s] running build_py
+[5.686s] running install
+[5.686s] running install_lib
+[5.694s] running install_data
+[5.694s] running install_egg_info
+[5.694s] removing '/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages/py_srv_cli-0.0.0-py3.8.egg-info' (and everything under it)
+[5.695s] Copying ../../build/py_srv_cli/py_srv_cli.egg-info to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages/py_srv_cli-0.0.0-py3.8.egg-info
+[5.710s] running install_scripts
+[5.727s] Installing client script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/py_srv_cli
+[5.727s] Installing service script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/py_srv_cli
+[5.727s] writing list of installed files to '/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log'
+[5.761s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_srv_cli' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_srv_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv_cli build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_srv_cli/install.log --install-scripts $base/lib/py_srv_cli --single-version-externally-managed

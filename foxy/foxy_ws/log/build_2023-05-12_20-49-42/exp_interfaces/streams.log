@@ -1,0 +1,29 @@
+[0.071s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces
+[0.388s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.388s] -- Found PythonInterp: /home/zyh/anaconda3/bin/python3 (found suitable version "3.10.9", minimum required is "3") 
+[0.388s] -- Using PYTHON_EXECUTABLE: /home/zyh/anaconda3/bin/python3
+[0.388s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.672s] -- Found PythonInterp: /home/zyh/anaconda3/bin/python3 (found version "3.10.9") 
+[0.859s] Traceback (most recent call last):
+[0.859s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.860s]     from catkin_pkg.package import parse_package_string
+[0.860s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.860s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.860s]   execute_process(/home/zyh/anaconda3/bin/python3
+[0.860s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.860s]   /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces/package.xml
+[0.861s]   /home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces/ament_cmake_core/package.cmake)
+[0.861s]   returned error code 1
+[0.861s] Call Stack (most recent call first):
+[0.861s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.861s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.861s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.864s] 
+[0.864s] 
+[0.865s] -- Configuring incomplete, errors occurred!
+[0.865s] See also "/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces/CMakeFiles/CMakeOutput.log".
+[0.871s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/exp_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/exp_interfaces

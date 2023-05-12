@@ -1,0 +1,24 @@
+[0.079s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+[0.384s] [ 50%] Built target client
+[0.385s] [100%] Built target server
+[0.388s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli -- -j12 -l12
+[0.721s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli
+[0.733s] -- Install configuration: ""
+[0.735s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/server
+[0.735s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/lib/cpp_srv_cli/client
+[0.735s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/package_run_dependencies/cpp_srv_cli
+[0.735s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/parent_prefix_path/cpp_srv_cli
+[0.736s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/path.sh
+[0.737s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/environment/path.dsv
+[0.737s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.bash
+[0.738s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.sh
+[0.739s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.zsh
+[0.739s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/local_setup.dsv
+[0.740s] -- Installing: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/package.dsv
+[0.742s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/ament_index/resource_index/packages/cpp_srv_cli
+[0.742s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/cmake/cpp_srv_cliConfig.cmake
+[0.743s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/cmake/cpp_srv_cliConfig-version.cmake
+[0.744s] -- Up-to-date: /home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srv_cli/share/cpp_srv_cli/package.xml
+[0.762s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srv_cli

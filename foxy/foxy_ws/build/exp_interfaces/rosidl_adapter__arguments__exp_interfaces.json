@@ -1,0 +1,8 @@
+{
+  "package_name": "exp_interfaces",
+  "non_idl_tuples": [
+    "/home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces:msg/Num.msg",
+    "/home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces:msg/Sphere.msg",
+    "/home/zyh/ros2_study/foxy/foxy_ws/src/exp_interfaces:srv/AddThreeInts.srv"
+  ]
+}

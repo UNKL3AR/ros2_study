@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (-) JobUnselected: {'identifier': 'cpp_pub_sub'}
+[0.000264] (-) JobUnselected: {'identifier': 'cpp_srv_cli'}
+[0.000679] (-) JobUnselected: {'identifier': 'py_pub_sub'}
+[0.001170] (-) JobUnselected: {'identifier': 'py_srv_cli'}
+[0.002575] (exp_interfaces) JobQueued: {'identifier': 'exp_interfaces', 'dependencies': OrderedDict()}
+[0.002879] (exp_interfaces) JobStarted: {'identifier': 'exp_interfaces'}
+[0.061923] (exp_interfaces) JobEnded: {'identifier': 'exp_interfaces', 'rc': 1}
+[0.072491] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srvclient
+Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srvclient

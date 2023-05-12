@@ -1,0 +1,22 @@
+[5.292s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_pub_sub': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log --install-scripts $base/lib/py_pub_sub --single-version-externally-managed
+[5.553s] running egg_info
+[5.553s] writing ../../build/py_pub_sub/py_pub_sub.egg-info/PKG-INFO
+[5.554s] writing dependency_links to ../../build/py_pub_sub/py_pub_sub.egg-info/dependency_links.txt
+[5.554s] writing entry points to ../../build/py_pub_sub/py_pub_sub.egg-info/entry_points.txt
+[5.554s] writing requirements to ../../build/py_pub_sub/py_pub_sub.egg-info/requires.txt
+[5.554s] writing top-level names to ../../build/py_pub_sub/py_pub_sub.egg-info/top_level.txt
+[5.686s] reading manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[5.687s] writing manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[5.687s] running build
+[5.687s] running build_py
+[5.688s] running install
+[5.689s] running install_lib
+[5.690s] running install_data
+[5.690s] running install_egg_info
+[5.692s] removing '/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[5.692s] Copying ../../build/py_pub_sub/py_pub_sub.egg-info to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages/py_pub_sub-0.0.0-py3.8.egg-info
+[5.693s] running install_scripts
+[5.706s] Installing listener script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/py_pub_sub
+[5.707s] Installing talker script to /home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/py_pub_sub
+[5.707s] writing list of installed files to '/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log'
+[5.731s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/src/py_pub_sub' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/prefix_override:/home/zyh/ros2_study/foxy/foxy_ws/install/py_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/build install --record /home/zyh/ros2_study/foxy/foxy_ws/build/py_pub_sub/install.log --install-scripts $base/lib/py_pub_sub --single-version-externally-managed

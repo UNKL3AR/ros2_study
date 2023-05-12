@@ -1,0 +1,50 @@
+[0.161s] Invoking command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srvclient
+[5.682s] -- The C compiler identification is GNU 9.4.0
+[8.370s] -- The CXX compiler identification is GNU 9.4.0
+[8.569s] -- Check for working C compiler: /usr/bin/cc
+[8.724s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.725s] -- Detecting C compiler ABI info
+[8.899s] -- Detecting C compiler ABI info - done
+[8.913s] -- Detecting C compile features
+[8.924s] -- Detecting C compile features - done
+[8.955s] -- Check for working CXX compiler: /usr/bin/c++
+[9.189s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[9.190s] -- Detecting CXX compiler ABI info
+[9.279s] -- Detecting CXX compiler ABI info - done
+[9.290s] -- Detecting CXX compile features
+[9.290s] -- Detecting CXX compile features - done
+[9.353s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.511s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.042s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[10.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.378s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.952s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.047s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.473s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.524s] -- Looking for pthread.h
+[11.670s] -- Looking for pthread.h - found
+[11.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.782s] -- Looking for pthread_create in pthreads
+[11.886s] -- Looking for pthread_create in pthreads - not found
+[11.886s] -- Looking for pthread_create in pthread
+[11.990s] -- Looking for pthread_create in pthread - found
+[11.991s] -- Found Threads: TRUE  
+[12.353s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[12.499s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.634s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[12.634s]   ament_package_xml() package name 'cpp_srvclient' in '/package.xml' does not
+[12.634s]   match current PROJECT_NAME 'cpp_srv_cli'.  You must call project() with the
+[12.634s]   same package name before.
+[12.634s] Call Stack (most recent call first):
+[12.634s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[12.634s]   CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)
+[12.634s] 
+[12.634s] 
+[12.636s] -- Configuring incomplete, errors occurred!
+[12.636s] See also "/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient/CMakeFiles/CMakeOutput.log".
+[12.636s] See also "/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient/CMakeFiles/CMakeError.log".
+[12.642s] Invoked command in '/home/zyh/ros2_study/foxy/foxy_ws/build/cpp_srvclient' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zyh/ros2_study/foxy/foxy_ws/src/cpp_srv_cli -DCMAKE_INSTALL_PREFIX=/home/zyh/ros2_study/foxy/foxy_ws/install/cpp_srvclient
